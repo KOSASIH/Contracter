@@ -1,0 +1,12 @@
+{
+    "collection": "comments",
+    "database": "sample_mflix",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true
+        }
+    ]
+}

@@ -1,0 +1,440 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "airTemperature": {
+            "bsonType": "object",
+            "properties": {
+                "quality": {
+                    "bsonType": "string"
+                },
+                "value": {
+                    "bsonType": "double"
+                }
+            }
+        },
+        "atmosphericPressureChange": {
+            "bsonType": "object",
+            "properties": {
+                "quantity24Hours": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "double"
+                        }
+                    }
+                },
+                "quantity3Hours": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "double"
+                        }
+                    }
+                },
+                "tendency": {
+                    "bsonType": "object",
+                    "properties": {
+                        "code": {
+                            "bsonType": "string"
+                        },
+                        "quality": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "atmosphericPressureObservation": {
+            "bsonType": "object",
+            "properties": {
+                "altimeterSetting": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "double"
+                        }
+                    }
+                },
+                "stationPressure": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "double"
+                        }
+                    }
+                }
+            }
+        },
+        "callLetters": {
+            "bsonType": "string"
+        },
+        "dataSource": {
+            "bsonType": "string"
+        },
+        "dewPoint": {
+            "bsonType": "object",
+            "properties": {
+                "quality": {
+                    "bsonType": "string"
+                },
+                "value": {
+                    "bsonType": "double"
+                }
+            }
+        },
+        "elevation": {
+            "bsonType": "int"
+        },
+        "pastWeatherObservationManual": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "atmosphericCondition": {
+                        "bsonType": "object",
+                        "properties": {
+                            "quality": {
+                                "bsonType": "string"
+                            },
+                            "value": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "period": {
+                        "bsonType": "object",
+                        "properties": {
+                            "quality": {
+                                "bsonType": "string"
+                            },
+                            "value": {
+                                "bsonType": "int"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "position": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "precipitationEstimatedObservation": {
+            "bsonType": "object",
+            "properties": {
+                "discrepancy": {
+                    "bsonType": "string"
+                },
+                "estimatedWaterDepth": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "presentWeatherObservationManual": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "condition": {
+                        "bsonType": "string"
+                    },
+                    "quality": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "pressure": {
+            "bsonType": "object",
+            "properties": {
+                "quality": {
+                    "bsonType": "string"
+                },
+                "value": {
+                    "bsonType": "double"
+                }
+            }
+        },
+        "qualityControlProcess": {
+            "bsonType": "string"
+        },
+        "seaSurfaceTemperature": {
+            "bsonType": "object",
+            "properties": {
+                "quality": {
+                    "bsonType": "string"
+                },
+                "value": {
+                    "bsonType": "double"
+                }
+            }
+        },
+        "sections": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "skyCondition": {
+            "bsonType": "object",
+            "properties": {
+                "cavok": {
+                    "bsonType": "string"
+                },
+                "ceilingHeight": {
+                    "bsonType": "object",
+                    "properties": {
+                        "determination": {
+                            "bsonType": "string"
+                        },
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "int"
+                        }
+                    }
+                }
+            }
+        },
+        "skyConditionObservation": {
+            "bsonType": "object",
+            "properties": {
+                "highCloudGenus": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "lowCloudGenus": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "lowestCloudBaseHeight": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "int"
+                        }
+                    }
+                },
+                "lowestCloudCoverage": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "midCloudGenus": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "totalCoverage": {
+                    "bsonType": "object",
+                    "properties": {
+                        "opaque": {
+                            "bsonType": "string"
+                        },
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "skyCoverLayer": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "baseHeight": {
+                        "bsonType": "object",
+                        "properties": {
+                            "quality": {
+                                "bsonType": "string"
+                            },
+                            "value": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "cloudType": {
+                        "bsonType": "object",
+                        "properties": {
+                            "quality": {
+                                "bsonType": "string"
+                            },
+                            "value": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "coverage": {
+                        "bsonType": "object",
+                        "properties": {
+                            "quality": {
+                                "bsonType": "string"
+                            },
+                            "value": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "st": {
+            "bsonType": "string"
+        },
+        "ts": {
+            "bsonType": "date"
+        },
+        "type": {
+            "bsonType": "string"
+        },
+        "visibility": {
+            "bsonType": "object",
+            "properties": {
+                "distance": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "int"
+                        }
+                    }
+                },
+                "variability": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "value": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "waveMeasurement": {
+            "bsonType": "object",
+            "properties": {
+                "method": {
+                    "bsonType": "string"
+                },
+                "seaState": {
+                    "bsonType": "object",
+                    "properties": {
+                        "code": {
+                            "bsonType": "string"
+                        },
+                        "quality": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "waves": {
+                    "bsonType": "object",
+                    "properties": {
+                        "height": {
+                            "bsonType": "double"
+                        },
+                        "period": {
+                            "bsonType": "int"
+                        },
+                        "quality": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "wind": {
+            "bsonType": "object",
+            "properties": {
+                "direction": {
+                    "bsonType": "object",
+                    "properties": {
+                        "angle": {
+                            "bsonType": "int"
+                        },
+                        "quality": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "speed": {
+                    "bsonType": "object",
+                    "properties": {
+                        "quality": {
+                            "bsonType": "string"
+                        },
+                        "rate": {
+                            "bsonType": "double"
+                        }
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    },
+    "title": "datum"
+}

@@ -1,0 +1,8 @@
+{
+    "field_name": "Contracter Zone",
+    "function_name": "white_angels",
+    "input_type": "date",
+    "input_type_format": "scalar-list",
+    "on_type": "Query",
+    "payload_type_format": ""
+}

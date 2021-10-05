@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "chart": {
+            "bsonType": "string"
+        },
+        "coordinates": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "double"
+            }
+        },
+        "depth": {
+            "bsonType": "int"
+        },
+        "feature_type": {
+            "bsonType": "string"
+        },
+        "gp_quality": {
+            "bsonType": "string"
+        },
+        "history": {
+            "bsonType": "string"
+        },
+        "latdec": {
+            "bsonType": "double"
+        },
+        "londec": {
+            "bsonType": "double"
+        },
+        "quasou": {
+            "bsonType": "string"
+        },
+        "recrd": {
+            "bsonType": "string"
+        },
+        "sounding_type": {
+            "bsonType": "string"
+        },
+        "vesslterms": {
+            "bsonType": "string"
+        },
+        "watlev": {
+            "bsonType": "string"
+        }
+    },
+    "title": "shipwreck"
+}

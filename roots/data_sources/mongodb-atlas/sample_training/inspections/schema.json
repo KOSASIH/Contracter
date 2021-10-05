@@ -1,0 +1,43 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "address": {
+            "bsonType": "object",
+            "properties": {
+                "city": {
+                    "bsonType": "string"
+                },
+                "number": {
+                    "bsonType": "int"
+                },
+                "street": {
+                    "bsonType": "string"
+                },
+                "zip": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "business_name": {
+            "bsonType": "string"
+        },
+        "certificate_number": {
+            "bsonType": "int"
+        },
+        "date": {
+            "bsonType": "string"
+        },
+        "id": {
+            "bsonType": "string"
+        },
+        "result": {
+            "bsonType": "string"
+        },
+        "sector": {
+            "bsonType": "string"
+        }
+    },
+    "title": "inspection"
+}

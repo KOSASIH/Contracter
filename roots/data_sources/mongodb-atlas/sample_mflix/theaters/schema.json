@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "location": {
+            "bsonType": "object",
+            "properties": {
+                "address": {
+                    "bsonType": "object",
+                    "properties": {
+                        "city": {
+                            "bsonType": "string"
+                        },
+                        "state": {
+                            "bsonType": "string"
+                        },
+                        "street1": {
+                            "bsonType": "string"
+                        },
+                        "street2": {
+                            "bsonType": "string"
+                        },
+                        "zipcode": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "geo": {
+                    "bsonType": "object",
+                    "properties": {
+                        "coordinates": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "double"
+                            }
+                        },
+                        "type": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "theaterId": {
+            "bsonType": "int"
+        }
+    },
+    "title": "theater"
+}

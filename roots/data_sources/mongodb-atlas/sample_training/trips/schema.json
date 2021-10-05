@@ -1,0 +1,66 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "bikeid": {
+            "bsonType": "int"
+        },
+        "birth year": {
+            "bsonType": "int"
+        },
+        "end station id": {
+            "bsonType": "int"
+        },
+        "end station location": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "end station name": {
+            "bsonType": "string"
+        },
+        "start station id": {
+            "bsonType": "int"
+        },
+        "start station location": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "start station name": {
+            "bsonType": "string"
+        },
+        "start time": {
+            "bsonType": "date"
+        },
+        "stop time": {
+            "bsonType": "date"
+        },
+        "tripduration": {
+            "bsonType": "int"
+        },
+        "usertype": {
+            "bsonType": "string"
+        }
+    },
+    "title": "trip"
+}

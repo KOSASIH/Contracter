@@ -1,0 +1,562 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "acquisition": {
+            "bsonType": "object",
+            "properties": {
+                "acquired_day": {
+                    "bsonType": "int"
+                },
+                "acquired_month": {
+                    "bsonType": "int"
+                },
+                "acquired_year": {
+                    "bsonType": "int"
+                },
+                "acquiring_company": {
+                    "bsonType": "object",
+                    "properties": {
+                        "name": {
+                            "bsonType": "string"
+                        },
+                        "permalink": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "price_amount": {
+                    "bsonType": "int"
+                },
+                "price_currency_code": {
+                    "bsonType": "string"
+                },
+                "source_description": {
+                    "bsonType": "string"
+                },
+                "source_url": {
+                    "bsonType": "string"
+                },
+                "term_code": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "acquisitions": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "acquired_day": {
+                        "bsonType": "int"
+                    },
+                    "acquired_month": {
+                        "bsonType": "int"
+                    },
+                    "acquired_year": {
+                        "bsonType": "int"
+                    },
+                    "company": {
+                        "bsonType": "object",
+                        "properties": {
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "permalink": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "price_amount": {
+                        "bsonType": "int"
+                    },
+                    "price_currency_code": {
+                        "bsonType": "string"
+                    },
+                    "source_description": {
+                        "bsonType": "string"
+                    },
+                    "source_url": {
+                        "bsonType": "string"
+                    },
+                    "term_code": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "alias_list": {
+            "bsonType": "string"
+        },
+        "blog_feed_url": {
+            "bsonType": "string"
+        },
+        "blog_url": {
+            "bsonType": "string"
+        },
+        "category_code": {
+            "bsonType": "string"
+        },
+        "competitions": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "competitor": {
+                        "bsonType": "object",
+                        "properties": {
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "permalink": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "created_at": {
+            "bsonType": "string"
+        },
+        "crunchbase_url": {
+            "bsonType": "string"
+        },
+        "deadpooled_day": {
+            "bsonType": "int"
+        },
+        "deadpooled_month": {
+            "bsonType": "int"
+        },
+        "deadpooled_url": {
+            "bsonType": "string"
+        },
+        "deadpooled_year": {
+            "bsonType": "int"
+        },
+        "description": {
+            "bsonType": "string"
+        },
+        "email_address": {
+            "bsonType": "string"
+        },
+        "external_links": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "external_url": {
+                        "bsonType": "string"
+                    },
+                    "title": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "founded_day": {
+            "bsonType": "int"
+        },
+        "founded_month": {
+            "bsonType": "int"
+        },
+        "founded_year": {
+            "bsonType": "int"
+        },
+        "funding_rounds": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "funded_day": {
+                        "bsonType": "int"
+                    },
+                    "funded_month": {
+                        "bsonType": "int"
+                    },
+                    "funded_year": {
+                        "bsonType": "int"
+                    },
+                    "id": {
+                        "bsonType": "int"
+                    },
+                    "investments": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "company": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "name": {
+                                            "bsonType": "string"
+                                        },
+                                        "permalink": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                },
+                                "financial_org": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "name": {
+                                            "bsonType": "string"
+                                        },
+                                        "permalink": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                },
+                                "person": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "first_name": {
+                                            "bsonType": "string"
+                                        },
+                                        "last_name": {
+                                            "bsonType": "string"
+                                        },
+                                        "permalink": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "raised_amount": {
+                        "bsonType": "int"
+                    },
+                    "raised_currency_code": {
+                        "bsonType": "string"
+                    },
+                    "round_code": {
+                        "bsonType": "string"
+                    },
+                    "source_description": {
+                        "bsonType": "string"
+                    },
+                    "source_url": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "homepage_url": {
+            "bsonType": "string"
+        },
+        "image": {
+            "bsonType": "object",
+            "properties": {
+                "available_sizes": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "array"
+                        }
+                    }
+                }
+            }
+        },
+        "investments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "funding_round": {
+                        "bsonType": "object",
+                        "properties": {
+                            "company": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "name": {
+                                        "bsonType": "string"
+                                    },
+                                    "permalink": {
+                                        "bsonType": "string"
+                                    }
+                                }
+                            },
+                            "funded_day": {
+                                "bsonType": "int"
+                            },
+                            "funded_month": {
+                                "bsonType": "int"
+                            },
+                            "funded_year": {
+                                "bsonType": "int"
+                            },
+                            "raised_amount": {
+                                "bsonType": "int"
+                            },
+                            "raised_currency_code": {
+                                "bsonType": "string"
+                            },
+                            "round_code": {
+                                "bsonType": "string"
+                            },
+                            "source_description": {
+                                "bsonType": "string"
+                            },
+                            "source_url": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ipo": {
+            "bsonType": "object",
+            "properties": {
+                "pub_day": {
+                    "bsonType": "int"
+                },
+                "pub_month": {
+                    "bsonType": "int"
+                },
+                "pub_year": {
+                    "bsonType": "int"
+                },
+                "stock_symbol": {
+                    "bsonType": "string"
+                },
+                "valuation_amount": {
+                    "bsonType": "long"
+                },
+                "valuation_currency_code": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "milestones": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "description": {
+                        "bsonType": "string"
+                    },
+                    "id": {
+                        "bsonType": "int"
+                    },
+                    "source_description": {
+                        "bsonType": "string"
+                    },
+                    "source_text": {
+                        "bsonType": "string"
+                    },
+                    "source_url": {
+                        "bsonType": "string"
+                    },
+                    "stoneable": {
+                        "bsonType": "object",
+                        "properties": {
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "permalink": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "stoneable_type": {
+                        "bsonType": "string"
+                    },
+                    "stoned_day": {
+                        "bsonType": "int"
+                    },
+                    "stoned_month": {
+                        "bsonType": "int"
+                    },
+                    "stoned_year": {
+                        "bsonType": "int"
+                    }
+                }
+            }
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "number_of_employees": {
+            "bsonType": "int"
+        },
+        "offices": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "address1": {
+                        "bsonType": "string"
+                    },
+                    "address2": {
+                        "bsonType": "string"
+                    },
+                    "city": {
+                        "bsonType": "string"
+                    },
+                    "country_code": {
+                        "bsonType": "string"
+                    },
+                    "description": {
+                        "bsonType": "string"
+                    },
+                    "latitude": {
+                        "bsonType": "double"
+                    },
+                    "longitude": {
+                        "bsonType": "double"
+                    },
+                    "state_code": {
+                        "bsonType": "string"
+                    },
+                    "zip_code": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "overview": {
+            "bsonType": "string"
+        },
+        "partners": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "homepage_url": {
+                        "bsonType": "string"
+                    },
+                    "link_1_name": {
+                        "bsonType": "string"
+                    },
+                    "link_1_url": {
+                        "bsonType": "string"
+                    },
+                    "partner_name": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "permalink": {
+            "bsonType": "string"
+        },
+        "phone_number": {
+            "bsonType": "string"
+        },
+        "products": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "name": {
+                        "bsonType": "string"
+                    },
+                    "permalink": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "providerships": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "is_past": {
+                        "bsonType": "bool"
+                    },
+                    "provider": {
+                        "bsonType": "object",
+                        "properties": {
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "permalink": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "title": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "relationships": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "is_past": {
+                        "bsonType": "bool"
+                    },
+                    "person": {
+                        "bsonType": "object",
+                        "properties": {
+                            "first_name": {
+                                "bsonType": "string"
+                            },
+                            "last_name": {
+                                "bsonType": "string"
+                            },
+                            "permalink": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "title": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "screenshots": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "available_sizes": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "array"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "tag_list": {
+            "bsonType": "string"
+        },
+        "total_money_raised": {
+            "bsonType": "string"
+        },
+        "twitter_username": {
+            "bsonType": "string"
+        },
+        "updated_at": {
+            "bsonType": "string"
+        },
+        "video_embeds": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "description": {
+                        "bsonType": "string"
+                    },
+                    "embed_code": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        }
+    },
+    "title": "company"
+}

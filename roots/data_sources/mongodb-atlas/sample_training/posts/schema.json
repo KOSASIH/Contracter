@@ -1,0 +1,46 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "author": {
+            "bsonType": "string"
+        },
+        "body": {
+            "bsonType": "string"
+        },
+        "comments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "author": {
+                        "bsonType": "string"
+                    },
+                    "body": {
+                        "bsonType": "string"
+                    },
+                    "email": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "date": {
+            "bsonType": "date"
+        },
+        "permalink": {
+            "bsonType": "string"
+        },
+        "tags": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "title": "post"
+}

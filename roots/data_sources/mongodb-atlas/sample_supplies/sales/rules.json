@@ -1,0 +1,12 @@
+{
+    "collection": "sales",
+    "database": "sample_supplies",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true
+        }
+    ]
+}

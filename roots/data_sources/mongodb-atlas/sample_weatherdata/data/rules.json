@@ -1,0 +1,12 @@
+{
+    "collection": "data",
+    "database": "sample_weatherdata",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true
+        }
+    ]
+}

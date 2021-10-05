@@ -1,0 +1,12 @@
+{
+    "collection": "inspections",
+    "database": "sample_training",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true
+        }
+    ]
+}

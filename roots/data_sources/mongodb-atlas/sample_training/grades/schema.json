@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "class_id": {
+            "bsonType": "double"
+        },
+        "scores": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "score": {
+                        "bsonType": "double"
+                    },
+                    "type": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "student_id": {
+            "bsonType": "double"
+        }
+    },
+    "title": "grade"
+}

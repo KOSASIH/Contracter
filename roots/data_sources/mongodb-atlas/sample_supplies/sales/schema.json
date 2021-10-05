@@ -1,0 +1,60 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "couponUsed": {
+            "bsonType": "bool"
+        },
+        "customer": {
+            "bsonType": "object",
+            "properties": {
+                "age": {
+                    "bsonType": "int"
+                },
+                "email": {
+                    "bsonType": "string"
+                },
+                "gender": {
+                    "bsonType": "string"
+                },
+                "satisfaction": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "items": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "name": {
+                        "bsonType": "string"
+                    },
+                    "price": {
+                        "bsonType": "decimal"
+                    },
+                    "quantity": {
+                        "bsonType": "int"
+                    },
+                    "tags": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "purchaseMethod": {
+            "bsonType": "string"
+        },
+        "saleDate": {
+            "bsonType": "date"
+        },
+        "storeLocation": {
+            "bsonType": "string"
+        }
+    },
+    "title": "sale"
+}

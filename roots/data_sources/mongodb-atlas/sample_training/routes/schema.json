@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "airline": {
+            "bsonType": "object",
+            "properties": {
+                "alias": {
+                    "bsonType": "string"
+                },
+                "iata": {
+                    "bsonType": "string"
+                },
+                "id": {
+                    "bsonType": "int"
+                },
+                "name": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "airplane": {
+            "bsonType": "string"
+        },
+        "codeshare": {
+            "bsonType": "string"
+        },
+        "dst_airport": {
+            "bsonType": "string"
+        },
+        "src_airport": {
+            "bsonType": "string"
+        },
+        "stops": {
+            "bsonType": "int"
+        }
+    },
+    "title": "route"
+}

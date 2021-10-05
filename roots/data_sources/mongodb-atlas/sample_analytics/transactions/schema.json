@@ -1,0 +1,46 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "account_id": {
+            "bsonType": "int"
+        },
+        "bucket_end_date": {
+            "bsonType": "date"
+        },
+        "bucket_start_date": {
+            "bsonType": "date"
+        },
+        "transaction_count": {
+            "bsonType": "int"
+        },
+        "transactions": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "amount": {
+                        "bsonType": "int"
+                    },
+                    "date": {
+                        "bsonType": "date"
+                    },
+                    "price": {
+                        "bsonType": "string"
+                    },
+                    "symbol": {
+                        "bsonType": "string"
+                    },
+                    "total": {
+                        "bsonType": "string"
+                    },
+                    "transaction_code": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        }
+    },
+    "title": "transaction"
+}
