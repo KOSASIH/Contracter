@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "name": "Authenticator",
+        "private": false
+    }
+]
