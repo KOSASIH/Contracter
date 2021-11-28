@@ -1,6 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/contracter/badge/?version=latest)](https://contracter.readthedocs.io/en/latest/?badge=latest)
 
-
+[![CircleCI](https://circleci.com/gh/KOSASIH/Contracter/tree/main.svg?style=svg)](https://circleci.com/gh/KOSASIH/Contracter/tree/main)
 ## Welcome to CONTRACTER Pages
 
 You can use the [editor on GitHub](https://github.com/KOSASIH/Contracter/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
